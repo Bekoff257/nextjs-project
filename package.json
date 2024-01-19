@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@nextui-org/accordion": "^2.0.28",
+    "aos": "^2.3.4",
+    "next": "^14.0.5-canary.59",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "sass": "^1.69.7",
+    "scss": "^0.2.4",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "eslint": "^8",

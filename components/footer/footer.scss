@@ -1,0 +1,95 @@
+.footer{
+    margin-top: 142px;
+
+    .footer-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%; /* 25.6px */
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+            background: linear-gradient(91deg, #5635DD -2.48%, #E63573 99.68%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h3{
+            padding-top: 15px;
+            color: #131313;
+            text-align: center;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 135%; /* 81px */
+        }
+
+        .contact-box{
+            margin-top: 37px;
+            width: 250px;
+            height: 250px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 50%;
+            background: linear-gradient(92deg, #D73780, #6737D3);
+
+            svg{
+                margin-top: 16px;
+            }
+        }
+    }
+
+    .footer-bottom{
+        padding-top: 101px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .footer-links{
+            padding-top: 86px;
+
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 0 144px;
+
+                li{
+                    list-style-type: none;
+                    
+                    a{
+                        color: #0B0B0B;
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-terms{
+        border-top: 1px solid #BBB;
+        margin-top: 69px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 34px 140px;
+
+        p{
+            color: #ACACAC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
